@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/mchorse/mappet/issues"
+
+[[mods]]
+modId="mappet"
+version="${file.jarVersion}"
+displayName="Mappet"
+authors="mchorse"
+description='''A storytelling, event scripting, and adventure framework for Minecraft.'''
+
+[[dependencies.mappet]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mappet]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
